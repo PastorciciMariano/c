@@ -1,0 +1,23 @@
+
+# GCC COMPILER
+
+Argument                 Description	                                                                                Example
+-Wall	        Enables all compiler’s warning messages.	                                                    gcc -Wall hello.c -o hello
+-Werror	        Turns warnings into errors.	                                                                    gcc -Werror hello.c -o hello
+-o	            Specifies the output file.	                                                                    gcc hello.c -o hello
+-g	            Generates debug information for use with GDB.	                                                gcc -g hello.c -o hello
+-O	            Enables optimization.	                                                                        gcc -O hello.c -o hello
+-std	        Specifies the version of the C language standard.	                                            gcc -std=c99 hello.c -o hello
+-c	            Compiles or assembles the source files, but does not link.	                                    gcc -c hello.c
+-I	            Adds include directory of header files.	                                                        gcc -I /path/to/include hello.c -o hello
+-L	            Adds directory of library files.	                                                            gcc -L /path/to/library hello.c -o hello
+-l	            Links with the library.	                                                                        gcc hello.c -lmylib -o hello
+-D	            Defines a preprocessor macro.	                                                                gcc -DDEBUG hello.c -o hello
+
+
+# COMMENTS/ ESCAPE SEQ
+
+# single line      // Example
+# multi line       /* Example */
+# newline          \n
+# tab              \t
